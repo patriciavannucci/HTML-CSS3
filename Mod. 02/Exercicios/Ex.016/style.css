@@ -1,0 +1,34 @@
+@charset "UTF - 8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-image: linear-gradient(to right, #aeeff7,#074c57);
+}
+main {
+    background-color: white; /* Aqui ele cria um fundo branco no main onde ficam as informações do site. */
+
+    border-radius:10px; /* aqui ele arredonda as bordas do main*/
+    box-shadow: 5px 5px 15px rgba(5, 53, 61, 0.507) ; /* Aqui colocamos a sombra, regulamos o tamanho da sombra e a cor em rgb, depois aplicamos um pouco de transparencia*/
+    
+    width: 600px; /* aqui muda o quanto o main ocupa de largura */
+    
+    padding: 10px; /* Aqui ele enlarguesse um pouco a borda */
+    
+    margin: auto; /* centraliza automaticamente  o main, aumentando o diminuindo a tela ele ja regula e centraliza */     
+
+    }
+h1{
+    color: #F24405;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(82, 25, 4); /* usamos o text shadowm para sombrear o texto*/
+}
+h2{
+    color: #FA7F08;
+}
+
+p {
+    text-align: justify ;
+
+}
